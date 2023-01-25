@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.list > li {
+  list-style-type: none;
+  margin-left: 16px;
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.list > li::before {
+  content: '#';
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.listActive {
+  color: var(--white) !important;
+}

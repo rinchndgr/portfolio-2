@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600');
+
+:root {
+  --primary: #c778dd;
+  --gray: #abb2bf;
+  --white: #ffffff;
+  --background: #282c33;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  background-color: var(--background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading-4 {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.heading-1 {
+  font-family: Fira Code;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
