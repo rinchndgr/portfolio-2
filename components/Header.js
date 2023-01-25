@@ -49,7 +49,7 @@ function Header() {
           <Link href="/about">About-me</Link>
         </li>
         <li>Contacts</li> */}
-        <li>EN</li>
+        <li>MN</li>
       </ul>
     </section>
   );
